@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barros Livros e Revistas - Sebo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Estilos Gerais */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1a252b;
+            color: white;
+        }
+
+        /* Header / Navbar */
+        header {
+            background-color: #1a252b;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+
+        nav a:hover {
+            color: #ccc;
+        }
+
+        /* Banner Principal */
+        .hero {
+            position: relative;
+            height: 500px;
+            background-image: url('caminho-da-sua-imagem-fundo.jpg'); /* Substitua aqui */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-end;
+            padding: 40px;
+        }
+
+        /* Logo flutuante no canto superior direito */
+        .logo-box {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 10px;
+            border: 2px solid #2c3e50;
+            width: 200px;
+            text-align: center;
+        }
+
+        .logo-box img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Rodapé / Social */
+        footer {
+            background-color: #1a252b;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 20px;
+        }
+
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 14px;
+        }
+
+        .divider {
+            width: 80%;
+            height: 1px;
+            background-color: white;
+            margin: 0 auto;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">História</a>
+            <a href="#">Catálogo</a>
+            <a href="#">Equipe</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <!-- Onde ficaria o logo quadrado com o texto "Barros Livros..." -->
+        <div class="logo-box">
+             <img src="logo-sebo.png" alt="Barros Livros e Revistas - Sebo">
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i> @barroslivros</a>
+            <a href="#"><i class="fab fa-twitter"></i> @SEBOBARROS</a>
+            <a href="#"><i class="fab fa-facebook"></i> @BARROSLIVROS</a>
+        </div>
+        <div class="divider"></div>
+    </footer>
+
+</body>
+</html>
